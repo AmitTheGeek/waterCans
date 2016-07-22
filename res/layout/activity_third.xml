@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text = "locality"
+      android:layout_marginTop = "20dp"
+      android:layout_marginLeft = "20dp"
+      android:id="@+id/locality_text" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf = "@+id/locality_text"
+      android:layout_marginTop = "20dp"
+      android:layout_marginLeft = "5dp"
+      android:id="@+id/locality_text_fill" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text = "address"
+      android:layout_marginTop = "20dp"
+      android:layout_below = "@+id/locality_text"
+      android:layout_alignLeft="@+id/locality_text"
+      android:layout_alignStart="@+id/locality_text"
+      android:id="@+id/address_text" />
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:layout_toRightOf = "@+id/locality_text"
+      android:layout_below = "@+id/locality_text_fill"
+      android:id="@+id/address_text_fill" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text = "landmark"
+      android:layout_marginTop = "20dp"
+      android:layout_below = "@+id/address_text"
+      android:layout_alignLeft="@+id/address_text"
+      android:layout_alignStart="@+id/address_text"
+      android:id="@+id/landmark_text" />
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf = "@+id/landmark_text"
+      android:ems="10"
+      android:layout_below = "@+id/address_text_fill"
+      android:id="@+id/landmark_text_fill" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text = "phone"
+      android:layout_marginTop="20dp"
+      android:layout_below = "@+id/landmark_text"
+      android:layout_alignLeft="@+id/landmark_text"
+      android:layout_alignStart="@+id/landmark_text"
+      android:id="@+id/phone_text" />
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:layout_below = "@+id/landmark_text_fill"
+      android:layout_toRightOf = "@+id/phone_text"
+      android:id="@+id/phone_text_fill" />
+    <Button 
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+      android:layout_below="@+id/phone_text"
+      android:layout_marginLeft = "20dp"
+      android:layout_marginTop="10dp"
+      android:text="submit"
+      android:id="@+id/button1" />
+    <Button 
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+      android:layout_toRightOf="@+id/button1"
+      android:layout_below="@+id/phone_text_fill"
+      android:text="change address"
+      android:layout_marginTop="10dp"
+      android:id="@+id/button2" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Get Me Water</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="normal_water">Normal Water</string>
+    <string name="bisleri_water">Bisleri Water</string>
+    <string name="Rs1">\u20B9 40</string>
+    <string name="Rs2">\u20B9 80</string>
+    <string name="title_activity_saved_address">SavedAddressActivity</string>
+
+</resources>
